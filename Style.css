@@ -5,6 +5,12 @@ h1{
     text-align: center;
 }
 
+.logo{
+    position: absolute;
+    width: 500px;
+    top: -195px;
+}
+
 .barra{
     font-size: 25px;
     text-align: center;
@@ -19,4 +25,14 @@ h1{
 
 .barra a:hover{
     color: red;
+}
+
+.search{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+    border-radius: 6px;
+    top: 120px;
+    right: 40px;
 }

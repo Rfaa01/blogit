@@ -8,7 +8,7 @@
 
 .btn{
     position: absolute;
-    right: 40px;
+    right: 200px;
     top: 20px;
     width: 150px;
     height: 28px;
@@ -20,9 +20,31 @@
     transition: .2s;
 }
 
+
 .btn:hover{
     color: black;
     background-color: white;
+    border-color: rgb(0, 152, 212);
+}
+
+.pay{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    width: 125px;
+    height: 28px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(0, 152, 212);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.pay:hover{
+    color: black;
+    background-color:white
+    ;
     border-color: rgb(0, 152, 212);
 }
 
@@ -61,6 +83,13 @@ h1{
     width: 300px;
     height: 30px;
     border-radius: 6px;
-    top: 130px;
-    right: 40px;
+    top: 20px;
+    left: 40px;
+}
+
+#linea{
+    position: absolute;
+    height: 45px;
+    right: 360px;
+
 }
